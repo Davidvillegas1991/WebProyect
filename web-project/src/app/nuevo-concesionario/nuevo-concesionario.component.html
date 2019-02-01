@@ -1,0 +1,223 @@
+<button (click)="goBack()" class="btn btn-secondary">Volver</button>
+<div>
+  <h2>{{ concesionario.nombre | uppercase }} Detalles</h2>
+  <div class="container-fluid">
+    <table class="container">
+      <tr>
+        <td class="izq">
+          <b>Nombre</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.nombre" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Telefono</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.telefono" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Dirección</b>
+
+        <td>
+          <input [(ngModel)]="concesionario.direccion" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Provincia</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.provincia" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Localidad</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.localidad" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Código Postal</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.codigopostal" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Teléfono Taller</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.telefonoTaller" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Responsable Taller</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.responsableTaller" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Teléfono Resposable Taller</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.telefonoResTaller" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Jefe Postventa</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.jefePostVenta" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Télefono Jefe Postventa</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.telefonoJefePostVenta" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Email Responsable Taller</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.emailResponsableTaller" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Email Jefe Postventa</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.emailJefePostVenta" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Email SsangyongCorp</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.emailSsangyongCorp" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Nombre Gerente</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.nombreGerente" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Teléfono Gerente</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.telefonoGerente" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Email Gerente</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.emailGerente" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Número DSM</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.numDSM" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Número MSM</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.numMSM" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Claves SIW</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.clavesSIW" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Responsable Recambios</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.responsableRecambios" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Email Recambios</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.emailRecambios" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Email Atención Cliente</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.emailAttCliente" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>MO Garantias</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.moGarantias" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>MO Cliente</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.moClient" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td class="izq">
+          <b>Otras Marcas</b>
+        </td>
+        <td>
+          <input [(ngModel)]="concesionario.otrasMarcas" class="form-control">
+        </td>
+      </tr>
+      <tr>
+        <td>
+
+        </td>
+        <td>
+          <button class="btn btn-success" (click)="add()">Guardar concesionario</button>
+        </td>
+      </tr>
+    </table>
+  </div>
